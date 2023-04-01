@@ -1,0 +1,78 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+div,
+p,
+a,
+li,
+td {
+    -webkit-text-size-adjust: none;
+}
+
+#outlook a {
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    		font-family: 'Poppins', sans-serif;
+    -webkit-text-size-adjust: 100%!important;
+}
+
+img {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a img {
+    border: none;
+}
+
+strong {
+    color: #000000;
+}
+
+table td {
+    mso-line-height-rule: exactly;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+table {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.main-wrapper {
+    max-width: 600px;
+}
+@media only screen and (min-device-width: 601px) {
+    .main-wrapper {
+width: 600px!important;
+    }
+}
+
+@media screen and (max-device-width:600px),
+screen and (max-width:600px) {
+    table[class=main-wrapper] {
+width: 100%!important;
+    }
+}
